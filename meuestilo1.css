@@ -91,7 +91,7 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     padding-bottom: 30px;
-    padding-top: 50px;
+    padding-top: 45px;
     margin-top: 0;
 }
 
@@ -120,7 +120,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     padding-bottom: 30px;
-    padding-top: 50px;
+    padding-top: 45px;
     margin-top: 0;
 }
 
@@ -183,7 +183,7 @@ h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     padding-bottom: 30px;
-    padding-top: 50px;
+    padding-top: 45px;
     margin-top: 0;
 }
 
@@ -201,7 +201,7 @@ h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     padding-bottom: 30px;
-    padding-top: 50px;
+    padding-top: 45px;
     margin-top: 0;
 }
 
@@ -231,7 +231,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     padding-bottom: 30px;
-    padding-top: 50px;
+    padding-top: 45px;
     margin-top: 0;
 }
 
@@ -259,8 +259,8 @@ footer {
 
 
     h1 {
-        font-size: 50px;
-        padding-top: 18%;
+        font-size: 30px;
+        padding-top: 22%;
         text-align: center;
         padding-right: 10%;  
         padding-left: 12%; 
@@ -269,16 +269,24 @@ footer {
     #chamar #ação {
         padding-left: 12%;
         text-align: center;
+        font-size: medium;
     }
 
     #section2 {
-        height: 110%;
+        height: 135%;
         border: 10px solid rgb(25, 46, 87);
     }
 
     #section3 {
         border: 10px solid rgb(25, 46, 87);
-        height: 313%;
+        height: 355%;
+    }
+
+    .conteiner {
+        clear: both;
+        display: flex;
+        justify-content: space-around ;
+        font-size: x-small;
     }
 
     .exemplos {
@@ -288,23 +296,28 @@ footer {
 
     #section4 {
         border: 10px solid rgb(25, 46, 87);
-        height: 260%;
+        height: 330%;
     }
 
     #section5 {
         border: 10px solid rgb(25, 46, 87);
-        height: 202%;
+        height: 217%;
+    }
+
+    .acoes {
+        font-size: small;
     }
 
     .exp1 {
-        margin-right: 55%;
+        margin-right: 38%;
         margin-top: 7%;
         margin-bottom: 5%;
+        border-radius: 30px 0 30px 0px;
 
     }
 
     footer {
-        height: 62%;
+        height: 80%;
     }
     
     body {
@@ -313,6 +326,10 @@ footer {
     
     #corpo {
         width: 100%;
+    }
+
+    #titulos, #titulos2, #titulos3, #titulos4, #titulos5 {
+        padding-top: 40px;
     }
 
 }
